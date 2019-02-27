@@ -19,8 +19,9 @@
             <description>Layered audio example</description>
             <pubDate>Mon, 5 Nov 2018 12:10:00 +0000</pubDate>
             <author>BBC R&amp;D</author>
-            <enclosure url="http://mwm.festivalapp.org/demos/layeredAudio.zip" length="230579" type="application/zip"/>
+            <enclosure url="walkwithme.zip" length="2309479" type="application/zip"/>
         </item>
+        <!--
         <item>
           <title>Time Demo</title>
           <guid isPermaLink="false">timeDemo</guid>
@@ -30,6 +31,6 @@
           <author>BBC R&amp;D</author>
           <enclosure url="http://mwm.festivalapp.org/demos/timeDemo.zip" length="230579" type="application/zip"/>
         </item>
-        </item>
+    -->
     </channel>
 </rss>
