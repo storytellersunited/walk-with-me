@@ -2,35 +2,24 @@
 <rss>
     <channel>
         <image>
-            <link>https://popathon.github.io</link>
-            <title>Walk with me</title>
+            <link>https://popathon.github.io/</link>
+            <title>Walk with me feed</title>
             <url>https://ichef.bbci.co.uk/images/ic/208x208/p05mg1y7.jpg</url>
         </image>
-        <title>Perceptive Podcasts Demos Examples</title>
-        <description>Perceptive Podcasts Demos Examples feed</description>
+        <title>Walk with me</title>
+        <description>Walk with me feed</description>
         <language>en</language>
-        <pubDate>Wed, 7 Nov 2018 17:30:00 +0000</pubDate>
-        <lastBuildDate>Wed, 7 Oct 2018 17:40:00 +0000</lastBuildDate>
-        <link>https://www.bbc.co.uk/taster</link>
+        <pubDate>Wed, 27 Feb 2019 17:41:00 +0000</pubDate>
+        <lastBuildDate>Wed, 27 Feb 2019 17:41:00 +0000</lastBuildDate>
+        <link>https://popathon.github.io/</link>
         <item>
-            <title>Walk with me 1</title>
-            <guid isPermaLink="false">layeredAudio</guid>
-            <summary>Seemless layered audio example</summary>
-            <description>Layered audio example</description>
-            <pubDate>Mon, 27 Nov 2019 20:10:00 +0000</pubDate>
+            <title>Walk with me</title>
+            <guid isPermaLink="false">walkwithme2</guid>
+            <summary>Walk with me</summary>
+            <description>Walk with me</description>
+            <pubDate>Wed, 27 Nov 2018 12:10:00 +0000</pubDate>
             <author>BBC R&amp;D</author>
             <enclosure url="https://popathon.github.io/walk-with-me/walkwithme.zip" length="2309479" type="application/zip"/>
         </item>
-        <!--
-        <item>
-          <title>Time Demo</title>
-          <guid isPermaLink="false">timeDemo</guid>
-          <summary>What is the current time?</summary>
-          <description>time test...</description>
-          <pubDate>Wed, 24 Oct 2018 22:10:00 +0000</pubDate>
-          <author>BBC R&amp;D</author>
-          <enclosure url="http://mwm.festivalapp.org/demos/timeDemo.zip" length="230579" type="application/zip"/>
-        </item>
-    -->
     </channel>
 </rss>
