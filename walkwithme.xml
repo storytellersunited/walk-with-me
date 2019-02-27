@@ -2,8 +2,8 @@
 <rss>
     <channel>
         <image>
-            <link>https://www.bbc.co.uk/rd</link>
-            <title>Perceptive Podcasts Demo Examples</title>
+            <link>https://popathon.github.io</link>
+            <title>Walk with me</title>
             <url>https://ichef.bbci.co.uk/images/ic/208x208/p05mg1y7.jpg</url>
         </image>
         <title>Perceptive Podcasts Demos Examples</title>
@@ -13,13 +13,13 @@
         <lastBuildDate>Wed, 7 Oct 2018 17:40:00 +0000</lastBuildDate>
         <link>https://www.bbc.co.uk/taster</link>
         <item>
-            <title>Layered Audio</title>
+            <title>Walk with me 1</title>
             <guid isPermaLink="false">layeredAudio</guid>
             <summary>Seemless layered audio example</summary>
             <description>Layered audio example</description>
-            <pubDate>Mon, 5 Nov 2018 12:10:00 +0000</pubDate>
+            <pubDate>Mon, 27 Nov 2019 20:10:00 +0000</pubDate>
             <author>BBC R&amp;D</author>
-            <enclosure url="walkwithme.zip" length="2309479" type="application/zip"/>
+            <enclosure url="https://popathon.github.io/walk-with-me/walkwithme.zip" length="2309479" type="application/zip"/>
         </item>
         <!--
         <item>
