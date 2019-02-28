@@ -30,5 +30,14 @@
             <author>BBC R&amp;D</author>
             <enclosure url="https://popathon.github.io/walk-with-me/walkwithme2.zip" length="2309479" type="application/zip"/>
         </item>
+        <item>
+            <title>Walk with me - par2</title>
+            <guid isPermaLink="false">walkwithme4</guid>
+            <summary>Walk with me</summary>
+            <description>Walk with me</description>
+            <pubDate>Thu, 28 Nov 2018 10:40:00 +0000</pubDate>
+            <author>BBC R&amp;D</author>
+            <enclosure url="https://popathon.github.io/walk-with-me/walkwithme3.zip" length="2309479" type="application/zip"/>
+        </item>
     </channel>
 </rss>
