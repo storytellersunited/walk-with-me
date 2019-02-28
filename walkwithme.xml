@@ -9,8 +9,8 @@
         <title>Walk with me</title>
         <description>Walk with me feed</description>
         <language>en</language>
-        <pubDate>Thu, 28 Feb 2019 11:31:00 +0000</pubDate>
-        <lastBuildDate>Thu, 28 Feb 2019 11:31:00 +0000</lastBuildDate>
+        <pubDate>Thu, 28 Feb 2019 12:21:00 +0000</pubDate>
+        <lastBuildDate>Thu, 28 Feb 2019 12:21:00 +0000</lastBuildDate>
         <link>https://popathon.github.io/</link>
         <item>
             <title>Walk with me</title>
@@ -55,7 +55,16 @@
             <description>Walk with me 5</description>
             <pubDate>Thu, 28 Nov 2018 11:31:00 +0000</pubDate>
             <author>BBC R&amp;D</author>
-            <enclosure url="https://popathon.github.io/walk-with-me/walkwithme4.zip" length="2309479" type="application/zip"/>
+            <enclosure url="https://popathon.github.io/walk-with-me/walkwithme5.zip" length="9363099" type="application/zip"/>
+        </item>
+        <item>
+            <title>Walk with me - par6 TIME</title>
+            <guid isPermaLink="false">walkwithme5</guid>
+            <summary>Walk with me</summary>
+            <description>Walk with me 5</description>
+            <pubDate>Thu, 28 Nov 2018 12:31:00 +0000</pubDate>
+            <author>BBC R&amp;D</author>
+            <enclosure url="https://popathon.github.io/walk-with-me/walkwithme6.zip" length="9363099" type="application/zip"/>
         </item>
     </channel>
 </rss>
