@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smil>
+    <head>
+  <customAttributes>
+    <customTest id="morning" relatedMerchant="TIME" relatedAction="ofDay">
+      <acceptedValue>morning</acceptedValue>
+    </customTest>
+    <customTest id="afternoon" relatedMerchant="TIME" relatedAction="ofDay">
+      <acceptedValue>afternoon</acceptedValue>
+    </customTest>
+    <customTest id="evening" relatedMerchant="TIME" relatedAction="ofDay">
+      <acceptedValue>evening</acceptedValue>
+    </customTest>
+    <customTest id="night" relatedMerchant="TIME" relatedAction="ofDay">
+      <acceptedValue>night</acceptedValue>
+    </customTest>
+    <customTest id="else" relatedMerchant="ELSE" relatedAction="">
+      <acceptedValue>else</acceptedValue>
+    </customTest>
+  </customAttributes>
+</head>
+    <body>
+        <par>
+            <audio volLeft="0.1" volRight="0.1" src="AUDIO/GeneralBackground.mp3"></audio>
+            <seq>
+                <audio type="tts">
+                  <dynscript>
+                    <text>Hello, </text>
+                    <dynquery merchantId="USER_NAME" relatedAction="full_name"/>
+                  </dynscript>
+                </audio>
+            <audio volLeft="0.1" volRight="0.1" type="tts">
+                <dynscript>
+                    <text>Walk with me...</text>
+                </dynscript>
+            </audio>
+            <audio volLeft="0.1" volRight="0.1" type="tts" inTime="3sec">
+                <dynscript>
+                    <text>I can see you’re in St Peter’s Square in Manchester today, the sun is shining and it’s</text>
+                        <dynquery merchantId="TIME" relatedAction=""/>
+                        <text>.</text>
+                    <text>What stories do you want to hear today?</text>
+                </dynscript>
+            </audio>
+            <audio volLeft="0.1" volRight="0.1" type="tts" inTime="3sec">
+                <dynscript>
+                    <text>Local history, great. Here’s a story you might like...</text>
+                </dynscript>
+            </audio>
+            <audio volLeft="0.1" volRight="0.1" src="AUDIO/Clip1-Peterloo_Massacre.mp3"></audio>
+            <audio volLeft="0.1" volRight="0.1" inTime="1sec" type="tts">
+                <dynscript>
+                    <text>There are six replies to this story, would you like to hear one?</text>
+                </dynscript>
+            </audio>
+            <audio volLeft="0.1" volRight="0.1" inTime="3sec" src="AUDIO/Clip2_Response_on_Massacre.mp3"></audio>
+            <audio volLeft="0.1" volRight="0.1" inTime="1sec" type="tts">
+                <dynscript>
+                    <text>I’ve noticed you’re now in Castlefield, what kind of stories would you like to hear?</text>
+                </dynscript>
+            </audio>
+            <!-- SPEAK - How about some personal memories? -->
+            <audio volLeft="0.1" volRight="0.1" inTime="4sec" type="tts">
+                <dynscript>
+                    <text>Ok, great. Here’s one from today</text>
+                </dynscript>
+            </audio>
+            <audio volLeft="0.1" volRight="0.1" inTime="3sec" src="AUDIO/Castlefield.mp3"></audio>
+            <audio volLeft="0.1" volRight="0.1" inTime="2sec" type="tts">
+                <dynscript>
+                    <text>Would you like to hear more stories, or record your own?</text>
+                </dynscript>
+            </audio>
+            <!-- SPEAK - hear more stories -->
+            <audio volLeft="0.1" volRight="0.1" volLeft="0.1" volRight="0.1" inTime="3sec" src="AUDIO/Finally_in_Manchester.mp3"></audio>
+            <!-- SPEAK - not today -->
+            <audio volLeft="0.1" volRight="0.1" inTime="3sec" type="tts">
+                <dynscript>
+                    <text>Would you like to add to the story at this location?</text>
+                </dynscript>
+            </audio>
+            <audio volLeft="0.1" volRight="0.1" inTime="3sec" type="tts">
+                <dynscript>
+                    <text>Ok, here’s some more stories to listen to.</text>
+                </dynscript>
+            </audio>
+            <switch>
+                <seq customTest="else">
+                </seq>
+                <seq customTest="morning">
+                  <audio type="tts" volLeft="0.125">
+                    <dynscript>
+                      <text>There is a breakfast place near by here, would you like me to recommend one?</text>
+                    </dynscript>
+                  </audio>
+                </seq>
+                <seq customTest="afternoon">
+                  <audio type="tts" volLeft="0.125">
+                    <dynscript>
+                      <text>There is a great afternoon tea place near by, if you are interested?</text>
+                    </dynscript>
+                  </audio>
+                </seq>
+                <seq customTest="evening">
+                  <audio type="tts" volLeft="0.125">
+                    <dynscript>
+                      <text>It's dinner time? Maybe I can book a reservation for you?</text>
+                    </dynscript>
+                  </audio>
+                </seq>
+                <seq customTest="night">
+                  <audio type="tts" volLeft="0.125">
+                    <dynscript>
+                      <text>Wonder about in the night is maybe not the best idea?</text>
+                    </dynscript>
+                  </audio>
+                </seq>
+              </switch>
+        </seq>
+    </par>
+  </body>
+</smil>

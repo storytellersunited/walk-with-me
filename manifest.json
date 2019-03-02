@@ -1,0 +1,29 @@
+{
+	"title":"Walk with me",
+ 	"series":1,
+ 	"episode":1,
+ 	"imageryURIs":[
+    {"large":"IMAGES/large.jpg"},
+    {"medium":"IMAGES/medium.jpg"},
+    {"small":"IMAGES/small.jpg"}
+	],
+"creditGroups":[
+  {"name":"Writer",
+	"credits": [
+	{"name":"Michelle Collier", "role":"Smartphone script writer"},
+        {"name":"Simona Manni", "role":"Smartphone script writer"},
+        {"name":"Tobias Palma", "role":"Smartphone script writer"},
+        {"name":"Maxine Glancy", "role":"Smartphone script writer"}
+  ]},
+  {"name":"Producer(s)",
+	"credits": [
+	{"name":"Ian Forrester", "role":"Tech Producer"}
+
+  ]},
+  {"name":"Cast",
+	"credits": [
+	{"name":"Michelle Collier", "role":"Presenter"}
+	
+  ]}
+]
+}
